@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: url(capturas/parejitajus.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+
+}
+h1{
+    margin: auto;
+    margin-top: 180px;
+    color: white;
+    background-color: none;
+    text-align: center;
+    text-shadow: 4px 3px 2px black;
+    
+}
+
+#si{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 4px 3px 2px black;
+    background-color: rgb(0, 140, 255);
+    transform: translateX(-20%);
+    box-shadow: 8px 4px 3px 2px black;
+
+}
+#no{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    width: 10%;
+    color: white;
+    height: 10%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 4px 3px 2px black;
+    background-color: rgb(74, 115, 248);
+    background-color: rgb(199, 62, 62);
+    transform: translateX(-80%);
+    box-shadow: 8px 4px 3px 2px black;
+}
+
+h3{
+    color: white;
+    font-family:sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 94%;
+    left: 85%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    transform: translateX(-3%);
+    opacity: 10%;
+    
+}
+
+.corazones{
+    position: absolute;
+    top: 38%;
+    left: 52%;
+    width: 9%;
+}
+.corazones2{
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    width: 9%;
+}
+.corazones3{
+    position: absolute;
+    top: 36%;
+    left: 43.5%;
+    width: 12%;
+}
+
+.hamster{
+    position: absolute;
+    top: 40%;
+    left: 43.5%;
+    width: 13%;
+    box-shadow: 6px 5px 4px black;
+}
